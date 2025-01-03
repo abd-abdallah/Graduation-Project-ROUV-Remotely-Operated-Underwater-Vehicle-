@@ -1,0 +1,7 @@
+<launch>
+
+    <node name="Arduino_Uno" pkg="rosserial_arduino" type="serial_node.py" args= "/dev/ttyACM0"/>
+    <node name="Arduino_Nano" pkg="rosserial_arduino" type="serial_node.py" args= "/dev/ttyACM1"/>
+
+	
+</launch>
